@@ -22,18 +22,17 @@
               <li class="haeder-item"><a href="./Portfolio.html" class="haeder-link">Портфолио</a></li>
               <li class="haeder-item"><a href="" class="haeder-link">Контакты</a></li>
             </ul>
-            <address>
+            <address class="haedernav-address">
                <ul class="header-address">
                  <li class="haeder-info">
                   <a href="" class="hinfo-link">
-                  <img src="./images/envelope.svg" alt="Конверт" />
-                   info@devstudio.com</a>
+                  <img src="./images/envelope.svg" alt="Конверт" class="hlink-img"/>
+                   <span >info@devstudio.com</span> </a>
                  </li>
                  <li class="haeder-info">
                     <a href="" class="hinfo-link">
-                    <img src="./images/smartphone.svg" alt="Смартфон" />
-                     +38 096 111 11 11
-                    </a>
+                    <img src="./images/smartphone.svg" alt="Смартфон"  class="hlink-img"/>
+                     <span>+38 096 111 11 11</span></a>
                   </li>
                </ul>
              </address>     
@@ -51,7 +50,7 @@
       </section>
       <!--О нас-->
       <section class="about">
-        <div class="contener padding bgTeam">
+        <div class="contener padding">
         <ul class="about-list">
           <li class="about-item">
             <div class="about-link">
@@ -114,13 +113,15 @@
             </p>
           </li>
         </ul>
+      
+      
         <h2>Чем мы занимаемся</h2>
         <ul class="about-lsdo">
           <li class="about-do">
             <img
               src="./images/img.jpg"
               alt="Десктопные приложения"
-              width="380"
+              width="370"
               height="294"
             />
             <h3>Десктопные приложения</h3>
@@ -129,7 +130,7 @@
             <img
               src="./images/box.jpg"
               alt="Мобильные приложения"
-              width="380"
+              width="370"
               height="294"
             />
             <h3>Мобильные приложения</h3>
@@ -138,7 +139,7 @@
             <img
               src="./images/comp.jpg"
               alt="Дизайнерские решения"
-              width="380"
+              width="370"
               height="294"
             />
             <h3>Дизайнерские решения</h3>
@@ -155,8 +156,9 @@
             <img
               src="./images/stuff/john.jpg"
               alt="Джон Смит"
-              width="278"
+              width="270"
               height="260"
+              class="tmitem-img"
             />
             <h3>John Smith</h3>
             <p>Product Designer</p>
@@ -204,8 +206,9 @@
             <img
               src="./images/stuff/marta.jpg"
               alt="Марта Стеварт"
-              width="278"
+              width="270"
               height="260"
+              class="tmitem-img"
             />
             <h3>Marta Stewart</h3>
             <p>Frontend Developer</p>
@@ -253,8 +256,9 @@
             <img
               src="./images/stuff/robert.jpg"
               alt="Роберт Джекин"
-              width="278"
+              width="270"
               height="260"
+              class="tmitem-img"
             />
             <h3>Robert Jakis</h3>
             <p>Marketing</p>
@@ -302,8 +306,9 @@
             <img
               src="./images/stuff/martin.jpg"
               alt="Мартин Дое"
-              width="278"
+              width="270"
               height="260"
+              class="tmitem-img" 
             />
             <h3>Martin Doe</h3>
             <p>UI Designer</p>
@@ -421,10 +426,10 @@
           ><span class="logo"> Web </span> Studio</a
         >
         <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <p class="footer-addres">г. Киев, пр-т Леси Украинки, 26</p>
           <ul>
-            <li><a href="" class="footer-info">info@example.com</a></li>
-            <li>
+            <li class="faddress-item"><a href="" class="footer-info">info@example.com</a></li>
+            <li class="faddress-item">
               <a href="tel:+380961111111" class="footer-info"
                 >+38 099 111 11 11</a
               >
@@ -435,7 +440,7 @@
       <section >
         <h2 class="footer-h flink">присоединяйтесь</h2>
         <ul class="flink-list">
-          <li class="flink-item">
+          <li class="footer-link">
             <a href="" aria-label="ссылка на Инстаграм" class="flink-link"
               ><img
                 src="./images/logo/instagramfooter.svg"
@@ -477,8 +482,12 @@
       <section>
         <h2 class="footer-h">подписаться на рассылку</h2>
       </section>
-    </div>
-      <p class="footer-copy">2020 | Developed by GoIT Students</p>
+    
+
+      </div>
+      <div class="contener">
+       <p class="footer-copy">2020 | Developed by GoIT Students</p>
+      </div>
      
     </footer>
   </body>
